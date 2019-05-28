@@ -1,4 +1,5 @@
-#include "../include/Matrix.h"
+#include <algorithm>
+#include "../include/CppML.h"
 
 int main() {
     // std::cout << sizeof(MKL_INT) << "\n";

@@ -5,10 +5,7 @@
 #ifndef CPPML_MATRIX_H
 #define CPPML_MATRIX_H
 
-#include <iostream>
-#include <vector>
-#include <memory>
-#include <cassert>
+#include <cstdio>
 #include "mkl.h"
 
 namespace CppML {
