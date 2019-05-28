@@ -1,1 +1,1 @@
-#### C++ Machine Learning Library with Intel Mkl library.
+#### C++ Machine Learning Library(use Intel Mkl library to accelerate computing)
