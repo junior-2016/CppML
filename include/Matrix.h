@@ -2,8 +2,8 @@
 // Created by junior on 19-5-28.
 //
 
-#ifndef CPPML_MATRIX_TEST_H
-#define CPPML_MATRIX_TEST_H
+#ifndef CPPML_MATRIX_H
+#define CPPML_MATRIX_H
 
 #include <iostream>
 #include <vector>
@@ -80,4 +80,4 @@ namespace CppML {
     };
 
 }
-#endif //CPPML_MATRIX_TEST_H
+#endif //CPPML_MATRIX_H

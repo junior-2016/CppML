@@ -1,4 +1,4 @@
-#include "../include/matrix_test.h"
+#include "../include/Matrix.h"
 
 int main() {
     // std::cout << sizeof(MKL_INT) << "\n";
