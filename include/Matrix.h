@@ -6,6 +6,8 @@
 #define CPPML_MATRIX_H
 
 #include <cstdio>
+#include <chrono>
+#include <iostream>
 #include "mkl.h"
 
 namespace CppML {
@@ -70,8 +72,10 @@ namespace CppML {
             if (result == nullptr) {
                 error_handle(m_, n_);
             }
+            auto start = dsecnd();
             cblas_dgemm(CblasRowMajor, CblasNoTrans, CblasNoTrans,
                         m_, n_, k_, alpha, matrix_a.data, k_, matrix_b.data, n_, beta, result, n_);
+            std::cout << "mkl time:" << (dsecnd() - start) * 1000 << "ms" << std::endl;
             return Matrix<DataType__, m_, n_>(result);
         }
     };
